@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #090909;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+    
+}
+.header{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    font-size: 2vw;
+    font-weight: 500;
+}
+.content{
+    display: flex;
+    flex: 3;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 20rem;
+}
+.task-wrapper{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #343434;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+}
+.small-text{
+    font-size: 1vw;
+    opacity: 0.6;
+    font-weight: 400;
+}
+.left-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+    flex: 1;
+    padding: 1rem;
+    border-right: 2px solid #343434;
+}
+.right-side{
+    flex: 1;
+    padding: 1rem;
+}
+.input-json{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    outline: none;
+    border: none;
+    resize: none;
+    color: #ffffffb2;
+    font-size: 1vw;
+}
+.input-json:focus{
+    outline: none;
+}
+.copyButton{
+    padding: 0.8rem 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem;
+    border-radius: 1000px;
+    outline: none;
+    border: none;
+    font-size: 1vw;
+}
+.copyButton:hover{
+    cursor: pointer;
+    background-color: #e5e2e2;
+}
+#result{
+    color: #fff;
+    font-size: 1vw;
+}
