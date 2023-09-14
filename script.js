@@ -6,7 +6,6 @@ copyButton.addEventListener("click", () => {
     let json = document.getElementById("json").value;
     json = JSON.parse(json);
     copiedObj = copyObject(json);
-    alert(copiedObj["arr"]);
     result.innerHTML = JSON.stringify(copiedObj);
 })
 
